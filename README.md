@@ -22,10 +22,11 @@ We're going to create a photo gallery application which allows users to view the
 
 **Challenge #2.1:** In addition to Normal Mode challenges, update your individual photo view to allow a user to navigate to other photos in the same album by clicking to the left/right of the photo currently being viewed.
 
+**Challenge #2.2:** Add the ability to add new photos to albums. You don't need to save the photos anywhere, but they should be added to the DOM and visible until the page is reloaded. Instead of trying to upload files, just add URL's to remote images. You should be able to add these photos via a simple form. Don't forget to update your Github respository.
+
 ### Epic Mode
 
-**Challenge #3.1:** Add the ability to add new photos to albums. You don't need to save the photos anywhere, but they should be added to the DOM and visible until the page is reloaded. Instead of trying to upload files, just add URL's to remote images. You should be able to add these photos via a simple form. Don't forget to update your Github respository.
-
+**Challenge #3.1** Add the ability for a use to uplaod an image. You are allowed to use a service like [Cloudinary](https://cloudinary.com/) if you so choose.
 
 ## You May Need
 - [Free photos from Unsplash](https://unsplash.com)
