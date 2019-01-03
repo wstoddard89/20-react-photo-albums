@@ -8,9 +8,9 @@
 ## Your Mission
 We're going to create a photo gallery application which allows users to view their albums as well as the individual photos contained within. We'll implement this as a single page application (SPA). Use the following wireframes as layout inspiration:
 
-![Albums View](./wireframeimgs/AlbumMain.png)
-![Album View](./wireframeimgs/AlbumPics.png)
-![Individual Image View](./wireframeimgs/AlbumIndiPage.png)
+![Albums View](./wireframeImgs/AlbumMain.png)
+![Album View](./wireframeImgs/AlbumPics.png)
+![Individual Image View](./wireframeImgs/AlbumIndiPage.png)
 
 ### Normal Mode
 
