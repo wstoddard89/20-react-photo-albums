@@ -28,6 +28,7 @@ body {
 
 .pageContent {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   width: 85%;
   margin: auto;
@@ -40,15 +41,15 @@ body {
 }
 
 .card {
-  height: 270px;
-  width: 200px;
+  height: 260px;
+  width: 220px;
   display: flex;
   flex-direction: column;
 }
 
 .cardImage {
-  height: 230px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   border: solid 3px black;
 }
 

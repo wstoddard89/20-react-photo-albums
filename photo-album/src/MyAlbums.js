@@ -26,13 +26,13 @@ function MyAlbums(props) {
   let images = []
   albums.map((data) => {
     images.push(data.thumbnail1)
-    console.log(images)
+    // console.log(images)
   })
 
   let titles = []
   albums.map((data) => {
     titles.push(data.title)
-    console.log(titles)
+    // console.log(titles)
   })
 
 
@@ -46,7 +46,9 @@ function MyAlbums(props) {
       <h3>My Albums</h3>
     </div>
     <div className="pageContent">
-      <Card src={images[0]} children ={titles[0]} />
+      <Link to={`/albumNames/1`}>
+        <Card src={images[0]} children ={titles[0]} />
+      </Link>
       <Card src={images[1]} children ={titles[1]}/>
       <Card src={images[2]} children ={titles[2]}/>
     </div>
