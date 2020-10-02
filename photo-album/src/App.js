@@ -18,9 +18,6 @@ function App() {
         <Route path="/albumNames/:id">
           <AlbumNames />
         </Route>
-        <Route path="/pictures/:id">
-          <Pictures />
-        </Route>
       </Switch>
     </Router>
   )

@@ -7,6 +7,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  user-select: none;
 }
 
 .container {
@@ -15,10 +16,19 @@ body {
   margin: auto;
   border: solid 3px black;
 }
+
+.container2 {
+  width: 80%;
+  height: 780px;
+  margin: auto;
+  border: solid 3px black;
+  position: relative;
+}
+
 .mainHeader {
   height: 130px;
   width: 100%;
-  background: #AAAAAA;
+  background: #aaaaaa;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -26,13 +36,42 @@ body {
   margin-bottom: 20px;
 }
 
+.sideBar {
+  position: absolute;
+  height: 645px;
+  width: 200px;
+  border-right: solid 3px black;
+  top: 130px;
+  text-align: center;
+}
+
+.sideBarLinks {
+  text-decoration: none;
+  color: black;
+}
+
+.sideAlbumNames {
+  list-style: none;
+  padding: 20px;
+  font-weight: bold;
+}
+
 .pageContent {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   width: 85%;
   margin: auto;
   margin-bottom: 50px;
+}
+
+.page2Content {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+  position: absolute;
+  left: 240px;
 }
 
 .mainHeader h3 {
@@ -61,11 +100,50 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 500;
+  text-align: center;
 }
 
 .cardImage img {
   height: 100%;
   width: 100%;
+}
+
+.linkTag {
+  text-decoration: none;
+}
+.linkTag:visited {
+  color: black;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+  background: white;
+  font-size: 34px;
+}
+
+.modal img {
+  height: 600px;
+  width: 600px;
+  margin-top: 50px;
+  border: solid 3px black;
+}
+
+.modalLabel {
+  border: solid 3px black;
+  display: flex;
+  border: solid 3px black;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #AAAAAA;
 }

@@ -46,16 +46,30 @@ function MyAlbums(props) {
       <h3>My Albums</h3>
     </div>
     <div className="pageContent">
-      <Link to={`/albumNames/1`}>
+      <Link className="linkTag" to={`/albumNames/1`}>
         <Card src={images[0]} children ={titles[0]} />
       </Link>
-      <Card src={images[1]} children ={titles[1]}/>
-      <Card src={images[2]} children ={titles[2]}/>
+      
+      <Link className="linkTag" to={`/albumNames/2`}>
+        <Card src={images[1]} children ={titles[1]}/>
+      </Link>
+
+      <Link className="linkTag" to={`/albumNames/3`}>
+        <Card src={images[2]} children ={titles[2]}/>
+      </Link>
     </div>
     <div className="pageContent">
-      <Card src={images[3]} children ={titles[3]}/>
-      <Card src={images[4]} children ={titles[4]}/>
-      <Card src={images[5]} children ={titles[5]}/>
+      <Link className="linkTag" to={`/albumNames/4`}>
+        <Card src={images[3]} children ={titles[3]}/>
+      </Link>
+
+      <Link className="linkTag" to={`/albumNames/5`}>
+        <Card src={images[4]} children ={titles[4]}/>
+      </Link>
+
+      <Link className="linkTag" to={`/albumNames/6`}>
+        <Card src={images[5]} children ={titles[5]}/>
+      </Link>
     </div>
     </div>
   )

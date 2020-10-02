@@ -6,15 +6,15 @@
       "thumbnail1":"https://www.thenewpotato.com/wp-content/uploads/2017/02/best-classic-novels-620x360.jpg",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"Animal Farm",
           "thumbnail":"https://images.unsplash.com/photo-1593004647399-c7e9d4234e87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2775&q=80"
         },
         {
-          "name":"picture 2",
+          "name":"1984",
           "thumbnail":"https://i.pinimg.com/originals/3b/de/43/3bde43ebc7c4530ee0f726f9059efef7.jpg"
         },
         {
-          "name":"picture 3",
+          "name":"Slaughterhouse Five",
           "thumbnail":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/31/12/sluaghterhouse-five.jpg?width=982&height=726"
         }
       ]
@@ -25,15 +25,15 @@
       "thumbnail1":"https://s24526.pcdn.co/wp-content/uploads/2020/07/125414663_web1_kirby-popcorn-640x381.jpg",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"Pulp Fiction",
           "thumbnail":"https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
         },
         {
-          "name":"picture 2",
+          "name":"Butch Cassidy and the Sundance Kid",
           "thumbnail":"https://images-na.ssl-images-amazon.com/images/I/51a0YxK7J%2BL._SY445_.jpg"
         },
         {
-          "name":"picture 3",
+          "name":"Drive",
           "thumbnail":"https://cinemattictalk.files.wordpress.com/2014/04/drive-poster-3.jpg?w=584"
         }
       ]
@@ -44,15 +44,15 @@
       "thumbnail1":"https://i.gifer.com/fetch/w300-preview/b3/b3e6bfddb08a1ca55ec69ee506e006d1.gif",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"Fargo",
           "thumbnail":"https://vignette.wikia.nocookie.net/fargo/images/d/d2/Fargo.JPG/revision/latest?cb=20150708220839"
         },
         {
-          "name":"picture 2",
+          "name":"Breaking Bad",
           "thumbnail":"https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR116,0,630,1200_AL_.jpg"
         },
         {
-          "name":"picture 3",
+          "name":"True Detective",
           "thumbnail":"https://upload.wikimedia.org/wikipedia/en/3/37/True_Detective_season_1.png"
         }
       ]
@@ -63,15 +63,15 @@
       "thumbnail1":"https://cdn.cnn.com/cnnnext/dam/assets/200131154622-02-staples-center-kobe-tshirts-restricted-super-tease.jpg",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"Kobe",
           "thumbnail":"https://i.ytimg.com/vi/q4ygSK1HzoE/hqdefault.jpg"
         },
         {
-          "name":"picture 2",
+          "name":"Lebron",
           "thumbnail":"https://cdn.vox-cdn.com/thumbor/nVfKuE5my1qxmmyhgiPTrne02xI=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19859903/nba_moments_series_lebron_kobe_dunk_getty_ringer.jpg"
         },
         {
-          "name":"picture 3",
+          "name":"Lakers",
           "thumbnail":"https://www.nba.com/lakers/sites/lakers/files/ts_180804logo.jpg?w=756&h=440"
         }
       ]
@@ -82,15 +82,15 @@
       "thumbnail1":"https://www.bartush.com/wp-content/uploads/2019/11/Las-Vegas-Nevada-USA-at-the-304074673.jpg",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"Downtown",
           "thumbnail":"https://www.reviewjournal.com/wp-content/uploads/2018/06/10673486_web1_PROJECT-ENCHILADA-JUN11-18_RB_007.jpg"
         },
         {
-          "name":"picture 2",
+          "name":"Strip",
           "thumbnail":"https://www.telegraph.co.uk/content/dam/Travel/Destinations/North%20America/USA/Las%20Vegas/las-vegas-lead-image-xlarge.jpg"
         },
         {
-          "name":"picture 3",
+          "name":"Las Vegs Sign",
           "thumbnail":"https://ewscripps.brightspotcdn.com/dims4/default/2773f9a/2147483647/strip/true/crop/669x351+0+43/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F31%2Fae%2Fa2409a204c659ebbefd504badab7%2Fo-bellagio.jpg"
         }
       ]
@@ -101,15 +101,15 @@
       "thumbnail1":"https://www.todayifoundout.com/wp-content/uploads/2011/12/Pong-arcade-game.jpg",
       "photos":[
         {
-          "name":"picture 1",
+          "name":"The Last of Us",
           "thumbnail":"https://media.playstation.com/is/image/SCEA/the-last-of-us-remastered-listing-thumb-02-ps4-us-08apr14?$Icon$"
         },
         {
-          "name":"picture 2",
+          "name":"Final Fantasy 7",
           "thumbnail":"https://steamcdn-a.akamaihd.net/steam/apps/39140/capsule_616x353.jpg?t=1574952550"
         },
         {
-          "name":"picture 3",
+          "name":"Crash Bandicoot",
           "thumbnail":"https://cdn11.bigcommerce.com/s-ymgqt/images/stencil/1280x1280/products/21490/25320/Crash_Bandicoot_greatest_hi__46006.1411752479.jpg?c=2"
         }
       ]
