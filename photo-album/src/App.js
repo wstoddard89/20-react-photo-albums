@@ -5,8 +5,8 @@ import Axios from "axios"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import MyAlbums from "./MyAlbums"
 import AlbumNames from "./AlbumNames"
-import Pictures from "./Pictures"
 
+//MUST CD INTO "SRC" TO RUN JSON SERVER (json-server -w albums.json)
 
 function App() {
   return (

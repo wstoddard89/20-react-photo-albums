@@ -11,11 +11,15 @@ import {
 import Card from './Card'
 
 
+//MUST CD INTO "SRC" TO RUN JSON SERVER (json-server -w albums.json)
 
-function MyAlbums(props) {
 
+function MyAlbums() {
+
+  //useState that sets "albums" as all data on albums
   const[albums, setAlbums] = useState([])
 
+  //useEffect to get all data on albums
   useEffect(() => {
     axios.get('http://localhost:3000/albums').then((r) => {
       const albumInfo = r.data
@@ -23,23 +27,21 @@ function MyAlbums(props) {
     })
   }, [])
 
+  //Makes array of all album thumbnail images
   let images = []
   albums.map((data) => {
     images.push(data.thumbnail1)
-    // console.log(images)
+    console.log(images)
   })
 
+  //Makes array of all album titles
   let titles = []
   albums.map((data) => {
     titles.push(data.title)
-    // console.log(titles)
+    console.log(titles)
   })
 
-
-
-
-
-  
+  //"pageContent" consists of cards that get images and title props by index"
   return (
     <div className="container">
     <div className="mainHeader">
@@ -47,28 +49,28 @@ function MyAlbums(props) {
     </div>
     <div className="pageContent">
       <Link className="linkTag" to={`/albumNames/1`}>
-        <Card src={images[0]} children ={titles[0]} />
+        <Card src={images[0]} title={titles[0]} />
       </Link>
       
       <Link className="linkTag" to={`/albumNames/2`}>
-        <Card src={images[1]} children ={titles[1]}/>
+        <Card src={images[1]} title={titles[1]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/3`}>
-        <Card src={images[2]} children ={titles[2]}/>
+        <Card src={images[2]} title={titles[2]}/>
       </Link>
     </div>
     <div className="pageContent">
       <Link className="linkTag" to={`/albumNames/4`}>
-        <Card src={images[3]} children ={titles[3]}/>
+        <Card src={images[3]} title={titles[3]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/5`}>
-        <Card src={images[4]} children ={titles[4]}/>
+        <Card src={images[4]} title={titles[4]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/6`}>
-        <Card src={images[5]} children ={titles[5]}/>
+        <Card src={images[5]} title={titles[5]}/>
       </Link>
     </div>
     </div>
