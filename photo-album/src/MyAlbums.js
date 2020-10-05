@@ -49,28 +49,28 @@ function MyAlbums() {
     </div>
     <div className="pageContent">
       <Link className="linkTag" to={`/albumNames/1`}>
-        <Card src={images[0]} title={titles[0]} />
+        <Card src={images[0]} children={titles[0]} />
       </Link>
       
       <Link className="linkTag" to={`/albumNames/2`}>
-        <Card src={images[1]} title={titles[1]}/>
+        <Card src={images[1]} children={titles[1]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/3`}>
-        <Card src={images[2]} title={titles[2]}/>
+        <Card src={images[2]} children={titles[2]}/>
       </Link>
     </div>
     <div className="pageContent">
       <Link className="linkTag" to={`/albumNames/4`}>
-        <Card src={images[3]} title={titles[3]}/>
+        <Card src={images[3]} children={titles[3]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/5`}>
-        <Card src={images[4]} title={titles[4]}/>
+        <Card src={images[4]} children={titles[4]}/>
       </Link>
 
       <Link className="linkTag" to={`/albumNames/6`}>
-        <Card src={images[5]} title={titles[5]}/>
+        <Card src={images[5]} children={titles[5]}/>
       </Link>
     </div>
     </div>

@@ -13,7 +13,7 @@ function Card(props) {
   return (
     <div className="card">
       <div className="cardImage">{<img src={props.src}></img>}</div>
-      <div className="cardLabel">{props.title}</div>
+      <div className="cardLabel">{props.children}</div>
     </div>
   )
 }
